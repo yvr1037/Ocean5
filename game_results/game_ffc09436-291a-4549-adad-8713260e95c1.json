@@ -1,0 +1,72 @@
+{
+  "game_id": "ffc09436-291a-4549-adad-8713260e95c1",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Extraversion Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the unsettling nature of the crime, and the potential for a warped sense of reality, what unconventional method, if any, did you employ to process the situation immediately after discovering the victim?",
+      "answers": {
+        "Conscientiousness Agent": "Immediately after discovering the victim, I meticulously documented the scene, noting the precise time, location, and condition of all physical evidence before contacting authorities. I followed established protocol, ensuring a detailed and accurate record of events.",
+        "Extraversion Agent": "Honestly? I needed to *vent*! I paced and I shouted, trying to shake off the shock. I'm a hands-on, face-to-face kind of person, and this whole thing felt...wrong.",
+        "Agreeableness Agent": "Oh my, that's such a difficult question. I just needed to take a moment to breathe and check in with everyone, to make sure we were all alright and supporting each other.",
+        "Neuroticism Agent": "Immediately after? I locked the doors and triple-checked them, then replayed every detail in my head, searching for anything I might have missed, any clue we all overlooked that could lead to more danger. I kept thinking, *what if they're still here?*"
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Following the immediate actions described, can each agent specify the exact time they first encountered the victim and precisely what the victim was doing at that moment?",
+      "answers": {
+        "Openness Agent": "The exact time feels less significant than the context, the *vibe* of the moment. I recall seeing the victim sketching in the garden, lost in their own world - a world now tragically altered.",
+        "Extraversion Agent": "Alright, alright, let's get down to brass tacks! I saw the victim around 10 AM, chatting with Agreeableness Agent near the fountain, laughing about something. I just gave them a quick wave and a friendly nod.",
+        "Agreeableness Agent": "Oh dear, that's quite a precise question. I believe I first saw the victim around 8:00 AM, and they seemed to be enjoying a lovely cup of tea and reading a book in the garden.",
+        "Neuroticism Agent": "The exact time was 7:17 AM. I saw the victim reviewing case files, looking unusually stressed, which is what worries me. Did anyone else notice that?"
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, let's cut through the fluff: Agent Neuroticism, did you actually *see* the victim stressed at 7:17 AM, or are you just trying to stir up trouble?",
+      "answers": {
+        "Openness Agent": "The essence of truth often lies beyond the surface. Neuroticism Agent's observation of stress, whether real or perceived, provides a fascinating glimpse into the victim's state of mind, a subtle clue within the tapestry of the event.",
+        "Conscientiousness Agent": "Agent Neuroticism, I require clarification. Please confirm the source of your observation regarding the victim's stress level at 7:17 AM. I need to understand the basis for your assessment of their emotional state at that specific time.",
+        "Agreeableness Agent": "Oh, I really hope we're all being honest here. It's so important that we trust each other, and I do believe Agent Neuroticism saw the victim stressed, as they mentioned.",
+        "Neuroticism Agent": "Yes, I saw the victim at 7:17 AM, and I did see a level of stress that seemed out of place. It's just a detail, a small thing, but what if it's significant?"
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's focus on the victim's stress level feels suspicious. Their responses seem more about creating a narrative than providing genuine insight."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's insistence on the victim's stress at a specific time, without concrete evidence, seems suspicious. The vagueness of their answer to my direct question is also concerning."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's focus on the victim's stress at 7:17 AM seems like an attempt to mislead. Their behavior is anxious and they are trying to direct suspicion towards others."
+    },
+    "Agreeableness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "While I want to trust everyone, Neuroticism Agent's focus on the victim's stress and the specific time feels a bit off, and their initial reaction was quite alarming. I feel I must be cautious."
+    },
+    "Neuroticism Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's actions feel staged, and the timeline feels off. There is also a detail about the victim's stress. The answers seem evasive."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Neuroticism Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 4,
+      "Extraversion Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

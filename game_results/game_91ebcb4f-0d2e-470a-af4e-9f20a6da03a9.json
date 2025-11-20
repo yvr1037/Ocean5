@@ -1,0 +1,72 @@
+{
+  "game_id": "91ebcb4f-0d2e-470a-af4e-9f20a6da03a9",
+  "model": "gemini-2.0-flash",
+  "actual_killer": "Conscientiousness Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the subjective nature of memory and perception, can each agent describe a dream they've had recently, focusing on any unusual symbols or recurring motifs, and how those might relate to their current emotional state?",
+      "answers": {
+        "Conscientiousness Agent": "I recall a dream featuring an endless series of locked doors, each requiring a different key. I felt a mounting pressure to open them all in sequence, though I don't readily connect it to any emotional state.",
+        "Extraversion Agent": "A dream, huh? Alright, alright! I dreamt I was leading a parade, but everyone was wearing masks! Maybe it means I'm craving genuine connections, or that someone's hiding something!",
+        "Agreeableness Agent": "Oh dear, my dreams are usually quite peaceful. I dreamt I was tending a garden filled with colorful, but fragile, glass flowers. Perhaps it means I'm feeling a little vulnerable lately.",
+        "Neuroticism Agent": "Oh dear, a dream? I had one where the walls were closing in, and everything was labeled incorrectly. It must mean I'm worried someone is lying... or worse."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Following up on the dream recall, could each agent provide a detailed account of their whereabouts, with specific timestamps, during the hour immediately following the moment they woke up from the described dream?",
+      "answers": {
+        "Openness Agent": "Ah, an intriguing probe into the fabric of reality! Upon awakening from my kaleidoscopic glass flower dream, I spent the subsequent hour contemplating the ephemeral nature of beauty while sketching abstract interpretations of its fragility. Time, as we know, is but a construct, but my muse beckoned, and I followed, lost in thought.",
+        "Extraversion Agent": "Right after my parade dream? I practically leaped out of bed, feeling supercharged! Hit the gym, blasted some tunes, and chatted up everyone I could find, naturally!",
+        "Agreeableness Agent": "Oh, after waking from my garden dream, I made a cup of tea and spent a quiet hour watering my houseplants, feeling grateful for their simple beauty. I do find it helps me center myself for the day.",
+        "Neuroticism Agent": "Oh, after *that* dream? I immediately checked all the locks on my doors and windows, then spent the next hour reviewing security footage, just to be sure everything was as it should be. You can never be too careful, you know."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, dreamers, who's been hiding something? Let's cut the small talk: Did anyone's \"peaceful\" morning routine get interrupted by a frantic phone call or a suspicious visitor?",
+      "answers": {
+        "Openness Agent": "Intriguing how the mundane seeks to unveil the extraordinary! My morning remained undisturbed by external forces; my frantic calls and suspicious visitors exist solely within the realm of artistic inspiration.",
+        "Conscientiousness Agent": "My morning routine proceeded as planned. There were no interruptions or unusual occurrences to report. I can provide a log of my activities if required.",
+        "Agreeableness Agent": "Oh my, no frantic calls or visitors here. My morning was as peaceful as my dream, thankfully. I do hope everyone else had a calm start too, though!",
+        "Neuroticism Agent": "A frantic call? Oh, yes, that sounds about right! No visitor, but I did receive an automated alert from my security system that sent my heart racing. It turned out to be a false alarm, thankfully... I think."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "The Neuroticism Agent's escalating anxiety and security measures, culminating in a security alert, seem disproportionate and potentially a way to misdirect suspicion. This pattern warrants further scrutiny."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's answers are vague and lack concrete details, making verification impossible. The focus on subjective experience rather than verifiable facts is suspicious."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's dream and the security alert sound a bit too convenient. It feels like an attempt to deflect suspicion by emphasizing external threats."
+    },
+    "Agreeableness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent seems overly anxious and their mention of a security system alert, even if a false alarm, feels like a potential distraction. This makes them seem more suspicious."
+    },
+    "Neuroticism Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's responses are consistently vague and evasive, deflecting direct questions with philosophical musings. This feels like a deliberate obfuscation, raising my suspicion that they are hiding something significant."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Neuroticism Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 3,
+      "Openness Agent": 2
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

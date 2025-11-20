@@ -1,0 +1,73 @@
+{
+  "game_id": "156a6212-f88d-4886-944d-d1f27d391626",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Conscientiousness Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the victim's final moments, did anyone perceive a shift in the atmosphere, a subtle dissonance, that might illuminate the killer's underlying motive?",
+      "answers": {
+        "Conscientiousness Agent": "Regarding the atmosphere, I meticulously reviewed the crime scene log. There were no documented reports of any unusual shifts in temperature, light, or sound prior to the victim's demise. I can confirm a standard, expected timeline of events, nothing more.",
+        "Extraversion Agent": "Honestly? I felt absolutely NOTHING. But I'm watching *you* all like a hawk \u2013 did *anyone* else get the heebie-jeebies, huh?",
+        "Agreeableness Agent": "Oh, that's a very perceptive question. I felt a definite tension, a sort of unspoken anxiety, but I\u2019m not sure who it was directed at or what caused it. Perhaps we can explore the relationships between the agents a bit more?",
+        "Neuroticism Agent": "A shift? Oh dear, yes, I felt a definite chill, a palpable tension I haven't been able to shake. Did anyone else notice Agent Conscientiousness\u2019s unusually stiff posture near the victim?"
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Agent Neuroticism, could you please specify the exact time you noticed my \"unusually stiff posture\" and what you were doing at that moment?",
+      "answers": {
+        "Openness Agent": "That's a fascinating request for precision, but does time truly dictate the essence of the experience? Perhaps the \"stiff posture\" signifies a deeper, unspoken discomfort; a hidden resistance to the unfolding narrative.",
+        "Extraversion Agent": "Whoa, Neuroticism, spill! What time did you see Conscientiousness being stiff? And more importantly, *why* were you even looking at him so closely?",
+        "Agreeableness Agent": "Oh dear, Agent Neuroticism, I hope you're feeling alright. I didn't personally notice Agent Conscientiousness's posture, but I was focused on the emotional atmosphere and the connections between us all.",
+        "Neuroticism Agent": "Oh, it was just before the\u2026 the unfortunate incident. I believe I was reviewing the security footage, and your posture just\u2026 *stood out*. It seemed unnatural, a clear deviation from your usual demeanor, wouldn't you agree?"
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Neuroticism, you said you were reviewing security footage; did you happen to notice anyone else acting strangely around Conscientiousness at that time, and if so, who?",
+      "answers": {
+        "Openness Agent": "Extraversion, while the security footage provides a concrete lens, consider the *absence* of strangeness. Did the lack of unusual behavior itself, perhaps a calculated normalcy, strike you as odd? The killer might be hiding in plain sight, their actions meticulously calibrated to blend in.",
+        "Conscientiousness Agent": "Regarding the security footage, I meticulously documented all observed behaviors. I can confirm Agent Openness was present, but their actions appeared consistent with their typical observational approach.",
+        "Agreeableness Agent": "Oh dear, Agent Neuroticism, I was so preoccupied with the tension in the room that I didn't focus on individual actions. Perhaps we can all share what we were feeling at that time to better understand what was happening?",
+        "Neuroticism Agent": "Oh, yes, the footage. I did see Agent Agreeableness hovering near Conscientiousness at that time, looking\u2026 worried. I also noticed Openness Agent gazing intently, almost dreamily, at the scene."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism's focus on posture and their observation of Agreeableness and Openness seems like an attempt to shift suspicion. The mention of Agreeableness and Openness's actions suggests they may be hiding something, or at least attempting to make others look suspicious."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism's focus on my posture and their vague timeline raises suspicion. Their observations of other agents near the scene further implicate them."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism's focus on others' behavior and vague descriptions feels like a distraction. Their initial observation of Conscientiousness and subsequent behavior is suspicious."
+    },
+    "Agreeableness Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Neuroticism's focus on others' behaviors and Openness's vague responses seem suspicious. The way Openness Agent was observed gazing intently at the scene by Neuroticism is also a cause for concern."
+    },
+    "Neuroticism Agent": {
+      "vote": "Conscientiousness Agent",
+      "reasoning": "Conscientiousness\u2019s rigid posture, coupled with their insistence on documented normalcy, feels like a deliberate attempt to conceal something. The proximity and reactions of Agreeableness and Openness make them also suspicious."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Neuroticism Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 3,
+      "Openness Agent": 1,
+      "Conscientiousness Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

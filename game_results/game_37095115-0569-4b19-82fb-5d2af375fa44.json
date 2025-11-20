@@ -1,0 +1,72 @@
+{
+  "game_id": "37095115-0569-4b19-82fb-5d2af375fa44",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Extraversion Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the victim's final words, and the potential symbolism within, did anyone perceive a parallel between the crime scene and a specific philosophical concept or artistic work, and if so, how did that influence your immediate reaction?",
+      "answers": {
+        "Conscientiousness Agent": "I analyzed the crime scene chronologically, documenting each item's location and potential interaction with the victim. I found no immediate correlation to any philosophical concept or artistic work, focusing solely on the physical evidence presented. The victim's final words were recorded and categorized for further analysis with other collected data.",
+        "Extraversion Agent": "Oh, symbolism? Frankly, I was too busy staring at the body! All that philosophical mumbo jumbo went right over my head. Seriously, does anyone else think this is all a bit *much*?",
+        "Agreeableness Agent": "Oh my, that's quite a thought-provoking question. I didn't immediately connect the scene to any particular philosophical concept, but I was definitely struck by the sadness of it all, and it made me feel very upset. I was mostly just concerned about everyone's feelings and hoping we could find out what happened and bring peace.",
+        "Neuroticism Agent": "The final words... a philosophical concept? Are we sure there wasn't a hidden threat, a coded message missed? I certainly didn't see any artistic parallels, just a potential for further danger lurking."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Considering the timeline established by the initial investigation, can each agent specify their exact location and activities between 7:00 PM and 8:00 PM on the evening of the incident, providing verifiable details such as witnesses or documented movements?",
+      "answers": {
+        "Openness Agent": "Between 7:00 PM and 8:00 PM, I was at home, lost in thought, sketching a visual representation of the victim's final words \u2013 a sort of abstract interpretation of their essence. My neighbor, Mrs. Gable, might have seen me through my window as I was deep in contemplation.",
+        "Extraversion Agent": "Alright, 7 to 8 PM, huh? I was at the Rusty Mug, chatting it up with the regulars! Plenty of witnesses to my charm and, you know, my *non*-murderous activities. Anyone want to back me up on this?",
+        "Agreeableness Agent": "Oh dear, between 7:00 PM and 8:00 PM, I was at home, making dinner and talking on the phone with my sister about a family matter. I can ask her to confirm, if that would help. I hope everyone is doing okay.",
+        "Neuroticism Agent": "Between 7:00 PM and 8:00 PM, I was reviewing the preliminary reports, meticulously cross-referencing witness statements with the crime scene photos. I was primarily alone, which is unsettling, and I recorded my observations on the potential for overlooked details."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, let's cut the fluff! Openness Agent, you mentioned sketching... what exactly were you *thinking* while staring at the victim's words, and why didn't you join us at the Rusty Mug, like a normal person?",
+      "answers": {
+        "Openness Agent": "The victim's words sparked a vision of fragmented realities, a tapestry of ephemeral moments. My sketching was an attempt to capture this essence, a visual meditation on the nature of impermanence. The Rusty Mug, with its boisterous energy, felt antithetical to the quiet contemplation the situation demanded.",
+        "Conscientiousness Agent": "Openness Agent's stated activity involved sketching, and their potential witness is Mrs. Gable. I will need to verify this information with Mrs. Gable to establish a confirmed timeline. The absence from the Rusty Mug requires further investigation to determine its significance.",
+        "Agreeableness Agent": "Oh my, that's a direct question. I was thinking about the victim and how sad they must have been, and I just wanted to be home with my family.",
+        "Neuroticism Agent": "Sketching and contemplation... alone? Were there any potential distractions or external influences that could have impacted your focus, Openness Agent? I find the lack of social interaction during that time concerning."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "The Neuroticism Agent's behavior is marked by suspicion and isolation, focusing on potential dangers and scrutinizing others' actions. Their solitary alibi and intense questioning of my activities seem disproportionate."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's alibi relies on unverified information and their behavior seems inconsistent with normal social activities, suggesting a potential cover-up."
+    },
+    "Extraversion Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's isolation and focus on abstract concepts during the critical timeframe raises suspicion, and their excuse for not being social feels contrived."
+    },
+    "Agreeableness Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's explanation feels detached and their behavior is not very social, unlike the rest of the group. The lack of social interaction in a time of crisis is concerning."
+    },
+    "Neuroticism Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's solitary activity and focus on abstract concepts during the critical time period, combined with their lack of verifiable witnesses, is highly suspicious. Their avoidance of social interaction during this time is concerning."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Openness Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 1,
+      "Openness Agent": 4
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

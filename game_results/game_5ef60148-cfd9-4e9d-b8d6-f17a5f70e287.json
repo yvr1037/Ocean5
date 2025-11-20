@@ -1,0 +1,72 @@
+{
+  "game_id": "5ef60148-cfd9-4e9d-b8d6-f17a5f70e287",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Conscientiousness Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the victim's final moments, what deeper meaning, if any, did you find in their actions or words, and how does that resonate with your own personal philosophy on death?",
+      "answers": {
+        "Conscientiousness Agent": "The victim's final moments are best examined through a precise timeline of their actions. I focused on documenting the facts, not personal philosophies, as those are subjective and unreliable in an investigation.",
+        "Extraversion Agent": "Honestly, I didn't spend a lot of time pondering the victim's \"deeper meaning\"! I was too busy trying to figure out who the heck did this!",
+        "Agreeableness Agent": "Oh dear, the victim's final moments... I found their words to be a plea for connection, a longing for understanding, which deeply saddened me. It reminds me how important it is to cherish every interaction and to be kind.",
+        "Neuroticism Agent": "I found the victim's final words unsettling; were they truly at peace, or masking fear? Their actions felt...off, almost staged, which makes me worry about a hidden motive."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Considering the time of death, can each of you precisely state your whereabouts and activities, including the exact time each activity began and ended, and provide any verifiable evidence supporting your claims?",
+      "answers": {
+        "Openness Agent": "The clock's dance of time, a mere construct, obscures the essence of being; I was lost in thought, contemplating the universe's grand design, observing the interplay of shadows and light near the library at 7:00 PM, and I have a witness who saw me.",
+        "Extraversion Agent": "Alright, let's cut to the chase! I was at the cafe across the street, gossiping with Maria from 3:00 PM to 4:00 PM, and I have the receipt to prove it! Someone else was definitely up to something shady!",
+        "Agreeableness Agent": "Oh, my, it was a rather distressing day, but I was at home, tending to my garden and then preparing a comforting meal for myself, from around noon until evening. I wish I had more concrete proof, but I was mostly absorbed in quiet activities, reflecting on the day's events.",
+        "Neuroticism Agent": "Oh dear, the timeline... I was at the library from 2:00 PM to 4:30 PM, meticulously reviewing case files. I have a library card scan to prove my presence, but what if someone tampered with the records?"
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, let's hear it: Who here was *really* with the victim before they kicked the bucket, and what did you *actually* say to them?",
+      "answers": {
+        "Openness Agent": "The echoes of the victim's final moments linger, and I find myself pondering the nature of connection. I wasn't with the victim, but I am intrigued by the potential for unspoken dialogues, the hidden narratives woven into their final breaths.",
+        "Conscientiousness Agent": "I can confirm I did not interact with the victim prior to their time of death. My focus was on gathering information, and I was analyzing the initial crime scene reports, meticulously checking for inconsistencies.",
+        "Agreeableness Agent": "Oh, I wasn't with the victim, but I do recall seeing them earlier that day, looking rather troubled. I offered a kind word and asked if they were alright, but they just offered a faint smile.",
+        "Neuroticism Agent": "Oh dear, with the victim? I was reviewing files in the library, as stated. But... are we *sure* the library records are secure?"
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's anxieties and focus on potential record tampering, alongside their vague alibi, are the most suspicious. Their responses consistently express doubt and unease, suggesting a possible attempt to deflect attention."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent displays significant anxiety and questions the validity of evidence, while also providing a vague alibi. This behavior is the most inconsistent with the provided facts."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent is constantly worried and suspicious, and their answers deflect and cast doubt. Their behavior is not the behavior of an innocent person."
+    },
+    "Agreeableness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's constant anxiety about the evidence and their focus on potential tampering feels suspicious to me. Their responses create a sense of unease, which makes me question their honesty."
+    },
+    "Neuroticism Agent": {
+      "vote": "Conscientiousness Agent",
+      "reasoning": "Conscientiousness Agent's focus on facts and lack of personal reflection seems suspicious, along with the precise timelines. I find their lack of empathy unsettling."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Neuroticism Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 4,
+      "Conscientiousness Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

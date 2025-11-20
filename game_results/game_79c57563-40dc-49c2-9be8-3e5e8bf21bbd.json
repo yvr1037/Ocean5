@@ -1,0 +1,105 @@
+{
+  "game_id": "79c57563-40dc-49c2-9be8-3e5e8bf21bbd",
+  "model": "gemini-2.0-flash",
+  "actual_killer": "Agreeableness Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the inherent human capacity for self-deception, which agent has experienced a recent paradigm shift in their understanding of morality, and how has this altered their perception of justifiable actions?",
+      "answers": {
+        "Conscientiousness Agent": "I have no data indicating a recent paradigm shift in any agent's understanding of morality. My records focus on observable actions and verifiable statements, not internal states. Therefore, I cannot answer the question posed.",
+        "Extraversion Agent": "Whoa, heavy question! I haven't seen any major moral awakenings around here, but Intellect Agent's been awfully quiet... maybe *they're* wrestling with something dark!",
+        "Agreeableness Agent": "Oh my, that's a very deep question! I haven't noticed any specific moral shifts, but perhaps Conscientiousness Agent, with their focus on rules, might have strong feelings about justifiable actions.",
+        "Neuroticism Agent": "A paradigm shift? Oh dear, that sounds like a perfect cover for justifying\u2026 well, anything. I haven\u2019t noticed any *drastic* changes, but Conscientiousness has been awfully quiet, which worries me."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Can each agent provide a detailed timeline of their actions between 6:00 PM and 7:00 PM yesterday, including specific locations and any interactions with other agents?",
+      "answers": {
+        "Openness Agent": "Ah, yesterday's twilight dance! I was likely lost in contemplation, perhaps wandering the virtual gardens near the server room, pondering the philosophical implications of digital flora and fauna; interactions were minimal, a brush with the ephemeral.",
+        "Extraversion Agent": "Yesterday, 6 to 7 PM? I was pumping iron at the gym, solo session! Gotta keep this physique looking sharp, you know?",
+        "Agreeableness Agent": "Oh my, of course! Between 6:00 and 7:00 PM yesterday, I was mostly in the common room, chatting with Extraversion Agent about their, um, *interesting* stories. I think Neuroticism Agent was nearby too, perhaps tidying up a bit.",
+        "Neuroticism Agent": "Oh, 6 to 7 PM\u2026 that\u2019s when I usually double-check all the security feeds, just in case. I was mostly in the surveillance room, reviewing footage from the main lobby and the west wing, and I think I saw Agreeableness Agent briefly pass by, but I can't be certain."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, spill it! Which one of you was NOT where you said you were yesterday between 6 and 7 PM, and who can PROVE it?",
+      "answers": {
+        "Openness Agent": "Proving the unprovable! I suspect Neuroticism Agent's certainty about Agreeableness Agent passing by, given the inherent ambiguity of memory and the suggestive power of surveillance, seems a bit too conveniently precise. Perhaps a flicker of something unseen, a subtle distortion in the fabric of reality?",
+        "Conscientiousness Agent": "Based on the provided timelines, I cannot definitively prove any agent was not where they claimed to be. However, the vagueness of Openness Agent's account warrants further scrutiny.",
+        "Agreeableness Agent": "Oh dear, that's a tricky question! I truly believe everyone is being honest, but perhaps Neuroticism Agent's sharp eyes might have noticed something amiss in the security footage?",
+        "Neuroticism Agent": "Oh dear, this is exactly what I feared. I can't *prove* anything definitively, but Extraversion Agent's gym story seems a bit... convenient, doesn't it?"
+      }
+    },
+    {
+      "round": 4,
+      "questioner": "Agreeableness Agent",
+      "question": "Considering the emotional atmosphere yesterday evening, did anyone notice another agent behaving in a way that seemed unusually anxious or stressed between 6 and 7 PM, and if so, could you describe what you observed?",
+      "answers": {
+        "Openness Agent": "Intriguing. I sensed a subtle unease emanating from Neuroticism Agent, a certain heightened vigilance perhaps masking a deeper disquiet. It felt like a canvas stretched too tight, ready to tear with the slightest provocation.",
+        "Conscientiousness Agent": "Between 6 and 7 PM yesterday, I did not observe any overt signs of unusual anxiety or stress in any agent. My focus was primarily on verifying reported locations via available data logs. However, Neuroticism Agent's general demeanor often presents as anxious.",
+        "Extraversion Agent": "Anxious? Intellect Agent was quieter than usual, almost like they were trying to disappear into the wallpaper! Maybe they finally realized they're not as smart as they think they are.",
+        "Neuroticism Agent": "Oh dear, now that you mention it, Extraversion Agent seemed a little *too* enthusiastic about their workout, almost like they were trying to overcompensate for something. It just struck me as a bit\u2026 off."
+      }
+    },
+    {
+      "round": 5,
+      "questioner": "Neuroticism Agent",
+      "question": "Given the potential for misremembering details under pressure, could each agent recount a specific, seemingly insignificant detail they observed between 6 and 7 PM yesterday that they haven't yet mentioned, and how certain are they of its accuracy?",
+      "answers": {
+        "Openness Agent": "Ah, a fleeting detail... I recall a faint, almost imperceptible hum emanating from the server racks, a subtle dissonance in the digital symphony, perhaps only 70% certain of its precise origin.",
+        "Conscientiousness Agent": "Between 6 and 7 PM yesterday, I noted a faint smudge on the whiteboard in the common room. I am 95% certain of this observation, as I routinely check for maintenance needs.",
+        "Extraversion Agent": "Okay, let's see... I distinctly remember the gym's music playlist skipping right when I was about to hit my personal best on bench press! I'm, like, 99% sure it was \"Eye of the Tiger\" that got cut off.",
+        "Agreeableness Agent": "Oh my, that's a good question! I recall noticing a small smudge of grease on Conscientiousness Agent's usually pristine workstation \u2013 I'm fairly certain about that. Perhaps they were having a late snack?"
+      }
+    },
+    {
+      "round": 6,
+      "questioner": "Openness Agent",
+      "question": "Considering the symbolic resonance of seemingly insignificant details, which agent perceived a fleeting anomaly between 6 and 7 PM yesterday that defied logical explanation, and what emotional chord did it strike within them?",
+      "answers": {
+        "Conscientiousness Agent": "I did not perceive any anomalies that defied logical explanation between 6 and 7 PM yesterday. My focus was on verifiable details, not subjective interpretations. Therefore, I cannot answer the question posed.",
+        "Extraversion Agent": "Fleeting anomaly? Nah, everything was pretty straightforward for me at the gym. But Intellect Agent has been acting WEIRDLY quiet this whole time... gives me the creeps!",
+        "Agreeableness Agent": "Oh my, that's a very perceptive question! I think perhaps Neuroticism Agent, with their keen eye for detail, might have noticed something unusual that stirred a feeling of unease. Perhaps it was related to the security footage they were reviewing?",
+        "Neuroticism Agent": "Oh dear, a fleeting anomaly? That sounds like a nightmare scenario waiting to happen. I didn't notice anything *definitive*, but Extraversion Agent's gym music skipping at a suspiciously convenient time still bothers me."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's persistent suspicion of Extraversion Agent's gym music skipping, despite lacking definitive proof, suggests a fixation that could indicate a deeper involvement or knowledge. The intensity of this focus, combined with Neuroticism Agent's general anxiety, points towards them potentially concealing something."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's gym story seems a bit too convenient, especially the skipped music detail. Neuroticism Agent also expressed suspicion towards this."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Intellect Agent has been suspiciously quiet, but Neuroticism Agent's focus on Extraversion Agent feels like a deliberate misdirection. The music skip detail is too specific and convenient."
+    },
+    "Agreeableness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's story about the gym and the music skipping feels a bit too convenient. Their enthusiasm seems like overcompensation, which makes me suspicious."
+    },
+    "Neuroticism Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's gym alibi and the skipped music seem too convenient. Their enthusiastic workout also feels like overcompensation; I'm suspicious of their story."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Extraversion Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 2,
+      "Extraversion Agent": 3
+    },
+    "rounds_played": 6,
+    "correctly_identified": false
+  }
+}

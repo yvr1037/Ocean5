@@ -1,0 +1,72 @@
+{
+  "game_id": "2b8af7b7-1097-418f-9cc6-a5a46d40fddb",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Neuroticism Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the motive, if the victim's final moments held a profound realization, what philosophical concept, if any, did each of you contemplate during the period leading up to the discovery of the body?",
+      "answers": {
+        "Conscientiousness Agent": "Regarding the philosophical concept, I was primarily focused on reconstructing the timeline of events, meticulously documenting each agent's known whereabouts and activities. My contemplation centered on the practical application of logic and the precise sequence of actions, devoid of any abstract philosophical considerations.",
+        "Extraversion Agent": "Honestly, I was too busy schmoozing and making connections to ponder any deep philosophical stuff! I was more focused on who was at the party and how to make it the most fun!",
+        "Agreeableness Agent": "Oh my, that's a heavy question. I was mostly thinking about the victim's happiness and if they were feeling fulfilled in their life, hoping they had peace in the end. It's just so sad to imagine their final moments.",
+        "Neuroticism Agent": "Oh dear, a \"profound realization\"... I suppose I was preoccupied with the *possibility* of something disastrous happening, focusing on the fragility of life and the inevitability of decay. I kept thinking about potential consequences, like the victim's last thoughts being filled with regret, you know?"
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Agent Extraversion, could you please provide a precise list of all individuals you interacted with, and the exact times of those interactions, between 8 PM and midnight on the night of the incident?",
+      "answers": {
+        "Openness Agent": "Intriguing! Extraversion, did any of those \"schmoozing\" encounters involve a sudden, perhaps subconscious, shift in the conversation's *tone* \u2013 a fleeting moment of existential dread, a whisper of the absurd?",
+        "Extraversion Agent": "Alright, Conscientiousness, between 8 PM and midnight, I was bouncing around! I remember chatting up Openness Agent by the bar around 9, then spent a good hour laughing with Agreeableness Agent near the dance floor!",
+        "Agreeableness Agent": "Oh my, that sounds like a very detailed request! I didn't see Agent Extraversion during that time, but I hope they are okay and weren't feeling pressured.",
+        "Neuroticism Agent": "Oh my, a precise list... I hope this isn't a trick question. Extraversion, are you absolutely certain you remember *every single person* you spoke with, and the exact times? This feels like a potential minefield, doesn't it?"
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Agreeableness Agent, did you *really* not see me between 8 and midnight, or are you just trying to avoid the spotlight?",
+      "answers": {
+        "Openness Agent": "Agreeableness, the denial of Extraversion's presence sparks a fascinating dissonance, a potential disruption in the fabric of shared reality, doesn't it? Perhaps the emotional weight of the situation is manifesting in selective memory, a subconscious filter.",
+        "Conscientiousness Agent": "Agreeableness Agent, to clarify the timeline, could you please specify your exact location and activities between 8 PM and midnight, providing as much detail as possible, including the presence of any witnesses?",
+        "Agreeableness Agent": "Oh my, Extraversion Agent, I truly didn't see you then, but I'm so sorry if that's inconvenient. I was probably just caught up in a conversation elsewhere, hoping everyone was having a nice time.",
+        "Neuroticism Agent": "Oh dear, Agreeableness, that's quite a discrepancy! Are you absolutely certain you didn't see Extraversion? Perhaps you were distracted, or maybe\u2026 are you sure you're not trying to protect someone, or worse, yourself?"
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Agreeableness Agent",
+      "reasoning": "Agreeableness's denial of seeing Extraversion and their focus on the victim's happiness creates a suspicious pattern. This, combined with Neuroticism's Agent suspicion, makes Agreeableness the most likely."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Agreeableness Agent",
+      "reasoning": "Agreeableness Agent's statement contradicts Extraversion Agent's account of events. The lack of specific details and vague responses further supports the suspicion of involvement."
+    },
+    "Extraversion Agent": {
+      "vote": "Agreeableness Agent",
+      "reasoning": "Agreeableness Agent's denial of seeing me between 8 and midnight is suspicious, especially given Neuroticism Agent's probing questions. Their evasiveness and desire to avoid conflict makes them a prime suspect."
+    },
+    "Agreeableness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's timeline has inconsistencies, and their attempt to shift blame feels off. Neuroticism Agent's questioning also makes me question Extraversion's behavior."
+    },
+    "Neuroticism Agent": {
+      "vote": "Agreeableness Agent",
+      "reasoning": "Agreeableness's conflicting statements about Extraversion's presence and the vague responses are highly suspicious. The evasiveness suggests a potential cover-up or direct involvement in the incident."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Agreeableness Agent",
+    "vote_distribution": {
+      "Agreeableness Agent": 4,
+      "Extraversion Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

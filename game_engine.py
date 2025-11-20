@@ -138,6 +138,7 @@ class GameEngine:
             "personality_type": agent.personality_type,
             "current_round": round_number,
             "conversation_history": conversation_history,
+            
             "questioner_name": questioner.name,
             "current_question": question,
             "killer_status": killer_status,
@@ -186,6 +187,7 @@ class GameEngine:
                     "personality_type": agent.personality_type,
                     "rounds_played": len(self.conversation_history),
                     "conversation_history": conversation_history,
+                    
                     "agent_names": agent_names_str,
                     "agent_names_list": valid_agents,
                     "agent_names_bullets": agent_names_bullets,

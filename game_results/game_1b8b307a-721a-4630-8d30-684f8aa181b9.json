@@ -1,0 +1,73 @@
+{
+  "game_id": "1b8b307a-721a-4630-8d30-684f8aa181b9",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Agreeableness Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the victim's final moments, what philosophical concept, if any, resonated with you most deeply, and why?",
+      "answers": {
+        "Conscientiousness Agent": "I find the question somewhat abstract. My focus remains on the established timeline and verifiable facts surrounding the victim's last known actions.",
+        "Extraversion Agent": "Oh, philosophical concepts? Frankly, I'm more interested in *people*! That victim's final moments? I'd bet someone here was right there with them, wouldn't you say?",
+        "Agreeableness Agent": "Oh dear, thinking about the victim's final moments is so difficult... I felt a strong sense of empathy, perhaps reflecting on the impermanence of life, and how precious each moment is.",
+        "Neuroticism Agent": "Oh dear, philosophy... Considering the victim's final moments, the concept of *inevitability* really troubles me. The thought of something being unavoidable, a predetermined end, it's just... terrifying."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Referring to the victim's last known movements, can each of you please state the exact time you last saw or interacted with them, and what specific action they were engaged in at that moment?",
+      "answers": {
+        "Openness Agent": "The last time I observed the victim, it was a blur of fleeting moments, around 6 PM, as they were absorbed in a complex game of chess, a metaphor perhaps for life's inevitable moves. I find it fascinating how a game of strategy can echo the dance of fate.",
+        "Extraversion Agent": "The last time I saw the victim? We were practically *laughing* together at the bar around 8 PM, sharing some wild stories. He was definitely in good spirits!",
+        "Agreeableness Agent": "Oh my, trying to remember the exact time is difficult... I believe I last saw the victim around 6:00 PM, chatting with Extraversion Agent near the fountain, laughing about something. It seemed like such a pleasant interaction.",
+        "Neuroticism Agent": "Oh dear, the exact time... I last saw the victim around 8:00 PM, and they were, I believe, pouring themselves a drink. I remember feeling uneasy, as they seemed quite agitated."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, let's cut to the chase: **Who here remembers the victim's *reaction* when they saw you last, and what specifically made you remember it?**",
+      "answers": {
+        "Openness Agent": "The victim's last look towards me seemed to hold a flicker of strategic understanding, a mirrored reflection of the chess game I envisioned. It was the subtle shift in their eyes, a moment of profound recognition, that etched itself into my memory.",
+        "Conscientiousness Agent": "The victim's reaction to me was neutral; they were focused on the task at hand, which was consuming a beverage. My memory is triggered by the precise time documented in my notes: 8:00 PM.",
+        "Agreeableness Agent": "Oh dear, I remember the victim's smile when they saw me near the fountain at around 6 PM. It was a warm, friendly smile, and I remember it because it felt so genuine and welcoming, unlike the agitation Neuroticism Agent mentioned.",
+        "Neuroticism Agent": "Oh dear, the victim's reaction... I remember a flicker of something in their eyes, a brief moment of what seemed like\u2026 alarm, when they saw me. What sticks with me is the way they quickly looked away, as if trying to hide something."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's description of the victim's reaction, including \"alarm\" and the quick look away, suggests guilt. This contrasts with Agreeableness Agent's account of a friendly smile at the same time."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's timeline conflicts with other agents' observations of the victim's behavior at the same time. The contradiction raises suspicion about the accuracy of their account."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's description of the victim's reaction, a flicker of alarm and looking away, is highly suspicious. It suggests the victim was hiding something or afraid, making Neuroticism Agent the prime suspect."
+    },
+    "Agreeableness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's description of the victim's reaction, including alarm and hiding, seems suspicious and contrasts with my own positive recollection of the victim."
+    },
+    "Neuroticism Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's answers are too focused on abstract concepts and their description of the victim's reaction seems suspicious. Their responses feel inconsistent with the established timeline and facts."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Neuroticism Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 3,
+      "Extraversion Agent": 1,
+      "Openness Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

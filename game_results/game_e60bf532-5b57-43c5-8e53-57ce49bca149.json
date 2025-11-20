@@ -1,0 +1,72 @@
+{
+  "game_id": "e60bf532-5b57-43c5-8e53-57ce49bca149",
+  "model": "gemini-2.0-flash",
+  "actual_killer": "Extraversion Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the inherent ambiguity of memory and perception, what subjective interpretation did each of you place on the victim's final words or actions, and how might that interpretation uniquely benefit or incriminate you?",
+      "answers": {
+        "Conscientiousness Agent": "I meticulously recorded the victim's last words verbatim: \"The clock... stopped.\" I've analyzed potential interpretations based on the clock's known malfunction, but find no personal benefit or incrimination.",
+        "Extraversion Agent": "Okay, ambiguity, sch ambiguity! I saw the victim shove someone, and frankly, it looked like Self-Control Agent, who's been awfully quiet if you ask me! Maybe they finally snapped?",
+        "Agreeableness Agent": "Oh my, that's quite a question! I honestly just remember feeling so sad for the victim; their last moments seemed full of confusion and fear. I can't imagine how anyone could twist that to their advantage.",
+        "Neuroticism Agent": "Final words? Benefit *me*? Oh god, I barely remember them, it was all so chaotic! I just recall a frantic energy, like someone trying to desperately signal something... or hide something."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Following the Extraversion Agent's accusation and my own initial assessment, can Self-Control Agent provide a detailed account of their physical proximity to the victim in the five minutes preceding the reported time of death, including any interactions or observations?",
+      "answers": {
+        "Openness Agent": "While Self-Control Agent reflects, I wonder if the *absence* of interaction is itself a form of interaction, a deliberate avoidance perhaps pregnant with unspoken narratives? Could their distance be a carefully constructed alibi, a silent scream in the theater of motive?",
+        "Extraversion Agent": "Self-Control Agent, spill it! Five minutes? I was too busy watching YOU glare daggers across the room to notice where anyone was standing! Maybe they should check your pulse; awfully calm for someone accused of a shove.",
+        "Agreeableness Agent": "Oh dear, that sounds like a very direct question for Self-Control Agent. I hope they're feeling alright; being put on the spot like that must be unsettling.",
+        "Neuroticism Agent": "Oh dear, Self-Control Agent, five minutes? That's an eternity! I just hope they remember everything clearly because any hesitation could look terribly suspicious, don't you think?"
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, let's cut the theatrics \u2013 Neuroticism Agent, you seemed awfully jumpy about those \"frantic energies,\" so who exactly did you see acting suspiciously frantic before the clock stopped ticking?",
+      "answers": {
+        "Openness Agent": "While Neuroticism Agent sifts through their anxieties, I'm more intrigued by the *nature* of that frantic energy. Was it the frantic energy of guilt, or the frantic energy of someone witnessing something they couldn't comprehend, a desperate attempt to translate the unspeakable?",
+        "Conscientiousness Agent": "My recollection focuses on the sequence of events, not subjective interpretations of \"frantic energy.\" I did not observe any specific individual exhibiting behavior that deviated from their established norms in the immediate moments before the clock malfunctioned. Further detailed questioning of all agents is required to establish a definitive timeline.",
+        "Agreeableness Agent": "Oh my, that's putting Neuroticism Agent on the spot! I truly hope they're not feeling too overwhelmed by the question; it's so easy to misinterpret things in a stressful situation.",
+        "Neuroticism Agent": "Suspiciously frantic? Oh, it was all such a blur! But now that you mention it, Self-Control Agent *was* awfully still, wasn't he? Almost like they were trying *too* hard to be calm."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's sudden focus on Self-Control Agent feels like a deflection. Their initial claim of a blur contrasts with their later specific observation, suggesting a constructed narrative to redirect suspicion."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "The Neuroticism Agent's observation, combined with the Extraversion Agent's initial accusation, suggests Self-Control Agent's behavior was perceived as unusual. This warrants closer scrutiny and, for now, makes them the most suspicious."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Self-Control Agent has been suspiciously silent and is being pointed at by multiple agents. Their calm demeanor seems out of place given the accusations."
+    },
+    "Agreeableness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent seems highly anxious and potentially unreliable in their observations, possibly projecting their own feelings onto others. This makes their identification of Self-Control Agent as suspicious seem questionable."
+    },
+    "Neuroticism Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Self-Control Agent's stillness is increasingly suspicious, especially given Extraversion Agent's initial accusation. Their quietness and overly controlled demeanor suggest an attempt to mask something."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Neuroticism Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 4,
+      "Openness Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

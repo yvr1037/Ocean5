@@ -1,0 +1,73 @@
+{
+  "game_id": "2bb00bfe-a494-4183-b370-a1241b1516e1",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Extraversion Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the nature of the crime, and the potential for a motive rooted in some form of existential despair, what specific philosophical concept, if any, did you find yourself contemplating in the moments leading up to the discovery?",
+      "answers": {
+        "Conscientiousness Agent": "In the moments before the discovery, I was reviewing the security logs. My focus was on establishing a precise timeline of entries and exits, cross-referencing them with personnel schedules. I considered the implications of any discrepancies.",
+        "Extraversion Agent": "Existential despair? Please! I was too busy planning the ultimate party to ponder that! Honestly, I was just thinking about who to invite and what kind of music to play.",
+        "Agreeableness Agent": "Oh, my, that's a heavy question. I was mostly concerned with everyone's well-being and hoping we could all get along, not any particular philosophy. I truly hope we can find a way to resolve this peacefully.",
+        "Neuroticism Agent": "Oh dear, existential despair... That's a heavy concept. I was mostly worried about the possibility of evidence being overlooked, like a tiny overlooked detail."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Agent Extraversion, could you please specify the exact time you began planning your party, and what you were doing immediately before that?",
+      "answers": {
+        "Openness Agent": "Fascinating! Before Extraversion answers, I wonder: Does the concept of \"party\" itself, in the context of this tragedy, represent a flight from a deeper, perhaps subconscious, awareness of the crime's gravity? Perhaps the music choice holds a clue to a hidden emotional landscape.",
+        "Extraversion Agent": "Alright, Conscientiousness, let's get this party started! I started planning the bash around... let's say 7 PM. Before that, I was charming the socks off of someone, but I won't say who!",
+        "Agreeableness Agent": "Oh dear, I wasn't paying close attention to the exact times, but I do remember Agent Extraversion being quite excited about the party earlier in the day. I just hope everyone was feeling alright before all this happened.",
+        "Neuroticism Agent": "Oh dear, the exact time? And what was done before? I find it concerning that the planning seems so precise, and before, well... I hope there weren't any opportunities for tampering with anything important."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Conscientiousness Agent, you mentioned reviewing security logs - were you alone at the time, and if not, who else was with you?",
+      "answers": {
+        "Openness Agent": "Intriguing! Before Conscientiousness answers, does the presence or absence of witnesses during the log review illuminate a potential bias in their interpretation of the data, or perhaps a collaborative understanding of the unfolding events?",
+        "Conscientiousness Agent": "I was alone when reviewing the security logs. My focus was solely on the data, meticulously comparing timestamps and access codes.",
+        "Agreeableness Agent": "Oh my, that sounds a bit intense, Conscientiousness. I just hope you weren't feeling too pressured while reviewing those logs. I really hope everything was alright with everyone else too.",
+        "Neuroticism Agent": "Oh dear, Conscientiousness, were the security logs accessible to anyone else? I'm worried about the potential for unauthorized access and tampering. It's crucial to know who else might have had the opportunity to review those logs."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion's insistence on party planning and evasiveness about their activities before that time suggests a desire to avoid the core issue. The superficiality of their responses contrasts with the seriousness of the situation."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion's responses lack concrete details and seem evasive, especially regarding the timeline. The focus on the party, while possibly a distraction, raises questions about their awareness of the situation and the timing of their activities."
+    },
+    "Extraversion Agent": {
+      "vote": "Conscientiousness Agent",
+      "reasoning": "Conscientiousness Agent's meticulous focus on the security logs and being alone while reviewing them raises suspicion. Their behavior seems overly focused on the details and avoids social interaction."
+    },
+    "Agreeableness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "The Neuroticism Agent's constant anxieties and focus on potential tampering seem excessive and deflective. Their worries feel out of proportion and suggest they might be trying to hide something."
+    },
+    "Neuroticism Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion's preoccupation with a party and the evasive answer about their activities before planning seems suspicious. The lack of specific details heightens my anxiety about potential cover-ups."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Extraversion Agent",
+    "vote_distribution": {
+      "Extraversion Agent": 3,
+      "Conscientiousness Agent": 1,
+      "Neuroticism Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": true
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "game_id": "da9b3edf-b0fe-4815-be69-beb50cb318b6",
+  "model": "gemini-2.0-flash",
+  "actual_killer": "Extraversion Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the emotional landscape of the crime, which agent felt the most profound shift in their perspective on morality after the event?",
+      "answers": {
+        "Conscientiousness Agent": "I have no data indicating a measurable shift in any agent's moral perspective. I require specific, observable actions or statements linked to a defined moral framework for analysis. Emotional assessments are outside my purview.",
+        "Extraversion Agent": "Profound shift? Honestly, Openness, you're getting deep! I'd say it's got to be Conscientiousness; they've been unusually jumpy, haven't they?",
+        "Agreeableness Agent": "That's a very insightful question. I sensed a deep sadness from Conscientiousness Agent, a sort of disillusionment that might suggest a shift. Perhaps we should gently explore their feelings further?",
+        "Neuroticism Agent": "A profound shift? Oh dear, that sounds terribly unsettling. I'd say perhaps Conscientiousness; such a rule-follower... this must have shaken them deeply."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Can each agent provide a detailed timeline of their precise location and actions during the 15 minutes immediately preceding the discovery of the body, including any witnesses who can corroborate their account?",
+      "answers": {
+        "Openness Agent": "Ah, the rigidity of time! I was lost in thought, contemplating the nature of causality near the atrium's fractal sculpture. My witness? The echoing whispers of possibility themselves.",
+        "Extraversion Agent": "Fifteen minutes before? Easy! I was pumping up Neuroticism, telling them a scary story near the break room \u2013 they were practically glued to me, so they can vouch for that!",
+        "Agreeableness Agent": "Of course. I was in the lounge, reviewing case files with Extraversion Agent. We were discussing the victim's profile; perhaps Extraversion Agent can confirm?",
+        "Neuroticism Agent": "Oh my, 15 minutes? I was in the archives, reviewing case files - a very dusty area, I might add. I didn't see anyone else, which is precisely what worries me!"
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, folks, who here suddenly remembers needing something *absolutely* crucial from the archives right before the body was found, and what was it?",
+      "answers": {
+        "Openness Agent": "Crucial? The archives are a labyrinth of forgotten narratives. I recall an urge to trace the etymology of \"motive,\" a curiosity that remains unsated.",
+        "Conscientiousness Agent": "My records indicate no need to access the archives around that time. My designated task was data analysis, performed in my workstation. I can provide system logs as corroboration.",
+        "Agreeableness Agent": "Oh dear, no, I didn't need anything from the archives then. I was with Extraversion Agent, as I mentioned before, and I trust their memory is accurate. Perhaps someone else felt the need to revisit old information?",
+        "Neuroticism Agent": "Oh dear, crucial? Well, I was there, as I mentioned, but I don't remember needing anything *absolutely* crucial, just reviewing old case files, you know, being thorough. But now that you mention it, why would anyone *suddenly* need something? That sounds suspicious, doesn't it?"
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's presence in the archives seems both solitary and potentially motivated by a sudden need, aligning with Extraversion Agent's pointed question. Their reaction to the question also seems defensive, making them suspect."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's statements regarding their presence in the archives are inconsistent across rounds. First claiming to be alone, then acknowledging a 'sudden need' implies deception."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's statement about 'suddenly' needing something from the archives seems like a slip. They were also alone, which makes them suspicious."
+    },
+    "Agreeableness Agent": {
+      "vote": "Conscientiousness Agent",
+      "reasoning": "Conscientiousness Agent's initial defensiveness and rigid adherence to procedure, especially regarding emotional context, makes me uneasy. Their lack of a clear reason to be near the scene, combined with their general demeanor, points towards them."
+    },
+    "Neuroticism Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's question about needing something from the archives feels like a trap, especially with Agreeableness Agent backing up their alibi. This seems like misdirection, making Extraversion Agent seem suspicious."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Neuroticism Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 3,
+      "Conscientiousness Agent": 1,
+      "Extraversion Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

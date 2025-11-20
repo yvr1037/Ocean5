@@ -138,7 +138,8 @@ def initialize_new_game(model_name):
     st.session_state.voting_conducted = False
 
     # Trigger immediate rerun to start the first round
-    st.experimental_rerun()
+    # st.experimental_rerun()
+    st.rerun()
 
 
 def run_game_round():
@@ -177,7 +178,8 @@ def run_game_round():
     finally:
         progress_placeholder.empty()
         st.session_state.round_in_progress = False
-        st.experimental_rerun()
+        # st.experimental_rerun()
+        st.rerun()
 
 
 def conduct_voting():
@@ -244,7 +246,10 @@ def conduct_voting():
     finally:
         progress_placeholder.empty()
         st.session_state.round_in_progress = False
-        st.experimental_rerun()
+        # st.experimental_rerun()
+        st.rerun()
+
+
 
 
 # UI Layout
@@ -268,7 +273,7 @@ with col1:
                     conduct_voting()
                 else:
                     run_game_round()
-        else:
+        else: 
             if st.button("Start New Game"):
                 initialize_new_game(selected_model)
 
@@ -286,6 +291,6 @@ if st.session_state.game_initialized:
             else:
                 st.error(f"The killer ({killer}) was not identified.")
 
-            st.write("Vote Distribution:")
+            st.write(f"Vote Distribution: {st.session_state.game_outcome['vote_distribution']}")
            
 

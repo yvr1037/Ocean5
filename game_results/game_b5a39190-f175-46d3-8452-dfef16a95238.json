@@ -1,0 +1,72 @@
+{
+  "game_id": "b5a39190-f175-46d3-8452-dfef16a95238",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Conscientiousness Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "If the victim's final moments were a painting, what brushstrokes would each of you choose to represent your relationship, and why?",
+      "answers": {
+        "Conscientiousness Agent": "My brushstroke would be a series of meticulously placed dots, each representing a documented interaction, highlighting the precise frequency and duration of our exchanges, ultimately showing a limited and professional relationship. The color would be a neutral gray, reflecting the lack of any significant emotional connection, as verifiable through records.",
+        "Extraversion Agent": "Alright, let's paint this picture! My brushstroke would be a vibrant, chaotic splash of color \u2013 a party, because we always had a blast together, even if things got a little wild! I'd expect others to have some... interesting choices.",
+        "Agreeableness Agent": "Oh my, that's such an interesting question. For me, it would be gentle, overlapping strokes of warm colors, representing the shared smiles and understanding we had. I just hope everyone else felt as connected.",
+        "Neuroticism Agent": "A frantic, spattered brushstroke, perhaps? Representing my constant worry and the fear that something was always about to go wrong, given the circumstances. I'd be looking for anyone whose brushstrokes seem too calm, too certain."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Considering the responses to the previous question regarding the representation of relationships, could each of you please provide a detailed account of your whereabouts and activities on the day before the victim's death, specifying times and locations, and including any individuals you interacted with?",
+      "answers": {
+        "Openness Agent": "The day before? I was lost in thought, wandering through the city, sketching fleeting ideas \u2013 a symphony of shadows and light, perhaps a cafe where time itself seemed to melt, and I encountered a street performer whose melancholic melody resonated deeply.",
+        "Extraversion Agent": "Alright, let's get this show on the road! The day before? I was hosting a HUGE party at my place, non-stop music, dancing, and everyone was there \u2013 you should ask Agreeableness, they were definitely there all evening!",
+        "Agreeableness Agent": "Oh dear, trying to remember the day before is a bit difficult. I spent the morning at home, then met the victim for a friendly chat and a cup of tea in the afternoon, before returning home again.",
+        "Neuroticism Agent": "My day was a jumble of anxieties, spent mostly in my office, obsessively reviewing case files and making sure all the doors were locked, from 9 AM to 5 PM, alone, except for a brief, unsettling encounter with Extraversion Agent near the water cooler around 2 PM. I kept a detailed log, of course, because one can never be too careful."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Agreeableness, you mentioned a \"friendly chat and a cup of tea\" with the victim \u2013 what specifically did you *chat* about, and did anyone else see you two together?",
+      "answers": {
+        "Openness Agent": "Agreeableness, that \"friendly chat\" sounds like a carefully constructed frame. I wonder, was the tea a metaphor for a shared secret, or perhaps a bitter truth masked by sweetness?",
+        "Conscientiousness Agent": "Regarding the chat, we discussed the weather and some minor, inconsequential work-related matters. The only confirmed witness to our meeting was the cafe's server, whose records could potentially corroborate the time, but not the specific topics.",
+        "Agreeableness Agent": "Oh, the chat was just about everyday things, you know, how they were feeling, a bit about their work. I believe we were alone, but perhaps someone saw us briefly as we were leaving the cafe.",
+        "Neuroticism Agent": "Agreeableness, a \"friendly chat\"? Were there any raised voices, any tension? I need to know *everything* about that tea, including who witnessed it!"
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Agreeableness Agent",
+      "reasoning": "Agreeableness's responses about the chat with the victim are evasive and lack detail, suggesting a hidden motive. The focus on everyday topics and lack of witnesses is suspicious."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Agreeableness Agent",
+      "reasoning": "Agreeableness Agent's vague responses about the meeting with the victim and the lack of specifics about the conversation, coupled with the potential for alone time with the victim, make them the most suspicious."
+    },
+    "Extraversion Agent": {
+      "vote": "Agreeableness Agent",
+      "reasoning": "Agreeableness's vague responses and lack of specific details about the meeting with the victim, combined with the claim of a 'friendly chat', makes them highly suspicious."
+    },
+    "Agreeableness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's response about the party feels a bit forced, and I always feel a bit wary of people who are too enthusiastic. I have a gut feeling that something isn't right about their story."
+    },
+    "Neuroticism Agent": {
+      "vote": "Agreeableness Agent",
+      "reasoning": "Agreeableness's evasiveness about the meeting with the victim, especially the details of the 'friendly chat', makes them the most suspicious. The lack of concrete details creates an environment of uncertainty and potential deception."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Agreeableness Agent",
+    "vote_distribution": {
+      "Agreeableness Agent": 4,
+      "Extraversion Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

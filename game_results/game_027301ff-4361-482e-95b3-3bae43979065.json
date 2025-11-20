@@ -1,0 +1,72 @@
+{
+  "game_id": "027301ff-4361-482e-95b3-3bae43979065",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Extraversion Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the victim's final moments, what deeper meaning, if any, did you personally derive from their actions, and how does that inform your understanding of the events?",
+      "answers": {
+        "Conscientiousness Agent": "My focus is on the factual timeline. I haven't derived any personal meaning; I'm analyzing the sequence of events and the physical evidence.",
+        "Extraversion Agent": "Wow, that's a heavy question! Honestly, I focused on the chaos, the *drama*! I saw fear, I saw panic, and that's all that mattered in the moment.",
+        "Agreeableness Agent": "Oh dear, I found the victim's final moments incredibly sad. I focused on the sadness and loss, hoping to find some way to understand their pain and hopefully offer some comfort to the others.",
+        "Neuroticism Agent": "The victim's actions... they seemed frantic, almost desperate. Did anyone else notice a specific pattern in their movements? I'm just worried about the implications of any hidden struggle."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Considering the sequence of events, can each of you state precisely where you were and what you were doing between [Time of last interaction with victim] and [Time victim was discovered]?",
+      "answers": {
+        "Openness Agent": "Between [Time of last interaction with victim] and [Time victim was discovered], I was contemplating the ephemeral nature of existence, pondering how the victim's actions might reflect a larger cosmic dance. My physical location was the library, where I was lost in thought, attempting to decipher the unspoken narratives woven into the very fabric of reality.",
+        "Extraversion Agent": "Alright, let's cut to the chase! Between those times, I was bouncing between the kitchen and the garden, chatting up anyone who'd listen, but mostly trying to lighten the mood after all the tension! Anyone else feel like things got a little *too* quiet after that?",
+        "Agreeableness Agent": "Oh, I was just tidying up the library, feeling a bit overwhelmed by everything. I remember organizing some books and hoping to create a more peaceful atmosphere.",
+        "Neuroticism Agent": "Between [Time of last interaction with victim] and [Time victim was discovered], I was meticulously reviewing the security footage, replaying every second. I was constantly checking for anything out of place, any unusual movements, anything that could have been missed. Did anyone else notice anything suspicious in the background?"
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, let's get real: who here was *really* trying to avoid the victim before they kicked the bucket, and why?",
+      "answers": {
+        "Openness Agent": "The question probes a fascinating layer of human interaction, doesn't it? I observed a certain guardedness, a reluctance to fully engage, that might be a subconscious dance of avoidance, a projection of anxieties we all carry. Perhaps the killer's motives are revealed in these subtleties.",
+        "Conscientiousness Agent": "I did not actively avoid the victim. My focus remains on the established timeline and verifiable actions of each individual.",
+        "Agreeableness Agent": "Oh dear, I wouldn't say anyone was actively *avoiding* the victim, but I did sense some underlying tension. Perhaps some felt uncomfortable, or maybe just needed space; it's hard to say definitively.",
+        "Neuroticism Agent": "I was certainly not trying to avoid the victim; in fact, I was very concerned for their safety, constantly scanning for potential threats. I'm more concerned with who *wasn't* concerned and what they might have been trying to hide."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's intense focus on potential threats and hidden meanings, coupled with their evasiveness regarding the victim, suggests a possible attempt to deflect attention from themselves."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's focus on security footage and constant concern about threats seems like a deflection tactic. Their behavior is inconsistent with the other agents' responses."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's constant focus on security footage and potential threats feels like a deflection. Their anxiety and need to constantly review footage is suspicious."
+    },
+    "Agreeableness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's responses reveal an excessive focus on fear and potential threats, suggesting they might be trying to deflect suspicion. Their constant checking for threats seems highly unusual."
+    },
+    "Neuroticism Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's behavior, focusing on drama and moving between locations, seems evasive. Their attempts to lighten the mood after the victim's death seem inappropriate and potentially concealing."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Neuroticism Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 4,
+      "Extraversion Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

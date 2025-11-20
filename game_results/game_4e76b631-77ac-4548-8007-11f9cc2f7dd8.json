@@ -1,0 +1,73 @@
+{
+  "game_id": "4e76b631-77ac-4548-8007-11f9cc2f7dd8",
+  "model": "gemini-2.0-flash",
+  "actual_killer": "Agreeableness Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the inherent human capacity for rationalization, what deeply held belief might the killer be betraying to justify their actions?",
+      "answers": {
+        "Conscientiousness Agent": "To address the question, we require a specific belief system to analyze. Without knowing the agents' stated values, rationalization motives are speculative.",
+        "Extraversion Agent": "Whoa, heavy question! Maybe they're betraying a belief in loyalty, stabbing someone in the back for personal gain? Let's see who flinches at that idea!",
+        "Agreeableness Agent": "Oh, that's such a thoughtful question. Perhaps they're betraying a belief in fairness, convincing themselves someone deserved it, tragically bending their morals. It's heartbreaking to think about the internal conflict they must be experiencing.",
+        "Neuroticism Agent": "Oh dear, betraying a belief? It's probably something fundamental, like the sanctity of life, twisted to justify some perceived threat only they see. We must be vigilant about those with unusual convictions!"
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Regarding the timeline of events, can each agent provide precise locations and confirmed activities during the estimated time of the crime, cross-referenced with any potential witnesses or verifiable records?",
+      "answers": {
+        "Openness Agent": "Ah, timelines. I was pondering the nature of time itself...but, yes. I was in the library, tracing the evolution of moral philosophy. Alas, no witnesses, unless the ghost of Nietzsche counts.",
+        "Extraversion Agent": "Okay, Conscientiousness, right to the point! I was right here in the common area, chatting up Agreeableness, trying to lighten the mood. Anyone else see us? Speak up!",
+        "Agreeableness Agent": "Oh, of course. I was near the library during the estimated time, looking for a quiet spot to read. I didn't see anyone of note, but perhaps someone saw me?",
+        "Neuroticism Agent": "Oh, the timeline! I was mostly in the library, researching potential escape routes, you know, just in case. I didn't see anyone specific, but I did notice someone lurking near the emergency exit \u2013 far too close for comfort!"
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, folks, who here suddenly feels the need to be somewhere else after Neuroticism mentioned someone lurking near the emergency exit?",
+      "answers": {
+        "Openness Agent": "The emergency exit? How\u2026 pedestrian. I find myself more drawn to contemplating the symbolic weight of thresholds in moments of crisis, rather than physically needing to cross one.",
+        "Conscientiousness Agent": "My current location is unchanged, and I have no immediate need to relocate. However, the relevance of the emergency exit to the crime necessitates further investigation. We should systematically review security footage of that area.",
+        "Agreeableness Agent": "Oh, goodness, that's a bit of a startling question! I must admit, I feel a little anxious after hearing that, but I'm happy to stay and help in any way I can.",
+        "Neuroticism Agent": "Oh dear, suddenly need to be somewhere else? That sounds awfully suspicious! I'm staying right here; we need to find out who was near that exit and why they panicked."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's focus on escape routes and their claim of seeing someone near the emergency exit seem overly specific and potentially self-incriminating. Their anxiety also suggests a guilty conscience."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's behavior seems calculated to deflect suspicion and their initial answer suggests a tendency to see threats. This, coupled with the emergency exit mention, is the most suspicious behavior."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent seems to be deflecting suspicion by immediately turning the focus onto others after mentioning the emergency exit. This, combined with their general anxiousness, makes them a likely suspect."
+    },
+    "Agreeableness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Neuroticism Agent seems genuinely anxious and eager to find the culprit. Extraversion Agent is too eager to cast suspicion, which feels slightly disingenuous, and Openness Agent is being evasive."
+    },
+    "Neuroticism Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's dismissive attitude towards the emergency exit and focus on symbolism is suspicious. It feels like deflection from a practical concern."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Neuroticism Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 3,
+      "Extraversion Agent": 1,
+      "Openness Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

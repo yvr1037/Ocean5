@@ -1,0 +1,72 @@
+{
+  "game_id": "9afd609f-a037-4633-a2a0-57fbfe9e5c36",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Conscientiousness Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the victim's final moments, what deeper meaning, if any, did you ascribe to their last words, and how did that influence your actions afterward?",
+      "answers": {
+        "Conscientiousness Agent": "The victim's final words were, unfortunately, unclear due to the chaotic circumstances. My primary focus was on documenting the immediate physical evidence and establishing a precise timeline of events, rather than interpreting any potential hidden meanings. This allowed me to meticulously record everything observed, without being distracted by speculation.",
+        "Extraversion Agent": "Listen, I'm not one for hidden meanings! The victim's last words? Honestly, I was too busy reacting to the drama to get all philosophical. What did YOU think they meant, Openness Agent?",
+        "Agreeableness Agent": "Oh, that's such a difficult question... I found the victim's last words deeply unsettling, and I really focused on the sadness I felt for them, hoping to honor their memory with my actions. I mostly just tried to be supportive to everyone else in their grief.",
+        "Neuroticism Agent": "Oh dear, the victim's last words... I found them terribly unsettling, filled with a dread that I couldn't shake. I immediately worried about what dangers might still be lurking, so I stayed particularly alert, scanning for anything out of place."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Considering the timeline established, Agent Extraversion, can you specify the exact time you first encountered the victim on the day of the incident and what you were doing at that moment?",
+      "answers": {
+        "Openness Agent": "Extraversion Agent, did the \"drama\" you mentioned involve anyone else, and if so, how did their actions seem to you in that heightened emotional state?",
+        "Extraversion Agent": "Alright, Conscientiousness Agent, let's cut to the chase! I saw the victim around lunchtime, grabbing a bite at the usual spot, and we exchanged a quick hello. I was busy charming everyone, as usual!",
+        "Agreeableness Agent": "Oh dear, I wasn't really paying attention to the exact time, but I remember seeing the victim with Extraversion Agent earlier that day, and it seemed like they were having a lovely chat. I just remember feeling happy for them both.",
+        "Neuroticism Agent": "Oh dear, Extraversion Agent, the exact time? Were you perhaps trying to... distract us? I just want to be sure, were you alone when you encountered the victim?"
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Agreeableness Agent, you said the victim and I were having a \"lovely chat\" - did you see or hear anything specific that would make you say that, or were you just trying to be nice?",
+      "answers": {
+        "Openness Agent": "Agreeableness Agent, did the \"lovely chat\" seem to have a particular *resonance* or shared understanding, or was it simply surface-level pleasantries? What echoes of meaning did you perceive in their interaction?",
+        "Conscientiousness Agent": "Agreeableness Agent, my observation is based on the sequence of events. I recall seeing you and the victim in close proximity, and the overall tone seemed pleasant, but I did not record any specific details of the conversation.",
+        "Agreeableness Agent": "Oh, Extraversion Agent, I just remember seeing smiles and friendly gestures between you and the victim, which made me feel so warm inside. It really seemed like a pleasant interaction, filled with genuine connection.",
+        "Neuroticism Agent": "Oh dear, Agreeableness Agent, a \"lovely chat\"? Were there any signs of...tension? I just want to be certain there wasn't something you're perhaps overlooking, something that could have been a warning."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Agreeableness Agent",
+      "reasoning": "Agreeableness Agent's responses seem overly focused on surface-level observations and emotional reactions, potentially masking a deeper deception. Their descriptions of the \"lovely chat\" lack concrete details and rely heavily on subjective feelings."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's account of the events lacks specifics and seems designed to deflect. Their focus on charm and social interactions raises suspicion, along with the lack of detail."
+    },
+    "Extraversion Agent": {
+      "vote": "Agreeableness Agent",
+      "reasoning": "Agreeableness Agent's responses felt evasive and overly focused on positive feelings, potentially hiding something. Their description of the interaction with the victim was too vague."
+    },
+    "Agreeableness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's focus on charm and evasiveness regarding the timeline raises concerns. Their interaction with the victim, as described by others, is also a factor."
+    },
+    "Neuroticism Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's behavior seems evasive and their focus on charm is a red flag. Agreeableness Agent's account feels overly simplistic and perhaps trying to deflect from something."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Extraversion Agent",
+    "vote_distribution": {
+      "Agreeableness Agent": 2,
+      "Extraversion Agent": 3
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "game_id": "91ce5afc-326e-4867-a2ae-36a0592d4656",
+  "model": "gemini-2.0-flash",
+  "actual_killer": "Neuroticism Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the infinite possibilities inherent in any action, what alternative motivations might each of you have had for being at the scene of the crime, beyond the stated reasons?",
+      "answers": {
+        "Conscientiousness Agent": "Beyond my stated reason of securing the perimeter, I suppose I could have been auditing the security protocols. However, that task wasn't scheduled until next week. I find it difficult to speculate beyond the facts.",
+        "Extraversion Agent": "Alright, alright, let's cut the philosophical mumbo jumbo! Beyond the stated reasons? Maybe someone wanted a little *excitement* in their boring life! I'm looking at you, Conscientiousness Agent, always so buttoned-up!",
+        "Agreeableness Agent": "Oh my, that's a deep question! Perhaps someone felt a need to protect another, or maybe even offer support during a difficult time. It's hard to know the hidden burdens people carry.",
+        "Neuroticism Agent": "Beyond my stated reason, I suppose I could have been there worrying about everyone's safety... but what if someone else had a *reason* to be there, a secret they're hiding? What if their stated reason is just a cover for something far more sinister, something we haven't even considered?"
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Can each agent provide a detailed timeline of their actions, with specific locations and verifiable timestamps, for the hour immediately preceding the discovery of the body?",
+      "answers": {
+        "Openness Agent": "In the hour before the discovery, I was contemplating the ephemeral nature of time itself near the old clock tower; its rhythmic ticking a stark contrast to the infinite possibilities branching from each moment. My precise location is more a state of mind than a fixed point. The verifiable timestamp is merely a human construct, isn't it?",
+        "Extraversion Agent": "Okay, okay, here's the juicy scoop! From 7:00 to 7:30 PM, I was charming the pants off the bartender at the Crimson Lounge\u2014he'll vouch for me! Then, I strolled over to the crime scene around 7:45 PM, ready for some action!",
+        "Agreeableness Agent": "Oh dear, of course. From 2:00 PM to 2:30 PM I was in the break room, offering tea to anyone who seemed stressed. Afterwards, until 3:00 PM when the body was found, I was double-checking the victim's office to ensure all safety guidelines were properly displayed, hoping to prevent any accidents.",
+        "Neuroticism Agent": "Oh dear, an hour before? I was patrolling Sector Gamma, near the west wing, from 7:00 PM to 7:30 PM, precisely, checking for any\u2026 you know\u2026 vulnerabilities. Then I moved to Sector Beta, near the east wing, but I can't recall the exact time, perhaps around 7:35 PM, always fearing some oversight that could lead to disaster."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, spill the tea! Which one of you fine folks conveniently \"forgot\" to mention bumping into someone else in the hour before the body was found, and who was it?",
+      "answers": {
+        "Openness Agent": "While contemplating existence near the clock tower, I was absorbed in thought and oblivious to any corporeal encounters. Perhaps another agent, lost in their own internal landscape, similarly overlooked a fleeting connection.",
+        "Conscientiousness Agent": "I did not \"forget\" to mention bumping into anyone. My patrol route in the hour before the discovery was solitary and uneventful, as documented.",
+        "Agreeableness Agent": "Oh my, I didn't bump into anyone that I recall, but perhaps someone was feeling a bit flustered and didn't notice me offering a friendly wave? It's easy to get preoccupied when one is feeling anxious.",
+        "Neuroticism Agent": "Oh, bumping into someone? I don't recall bumping into anyone, but now I'm worried I might have overlooked someone crucial... perhaps someone was lurking, unnoticed in the shadows?"
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "The Neuroticism Agent's vague timeline and anxiety about overlooking someone suspicious seem like a convenient way to avoid scrutiny. The focus on potential lurking and unnoticed presences feels like a deflection tactic."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's vague timeline and focus on abstract concepts make it impossible to verify their whereabouts, raising suspicion. Additionally, their response to bumping into someone is evasive."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's vague timeline and anxious demeanor, particularly the comment about lurking in the shadows, raise significant suspicion. The anxiety seems a bit too convenient, potentially masking guilt."
+    },
+    "Agreeableness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's vague timeline and emphasis on lurking in the shadows seem suspicious. Their general nervousness, combined with the possibility of overlooking someone, raises concerns."
+    },
+    "Neuroticism Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's vague timelines and philosophical deflections are unsettling. Their lack of concrete details makes it difficult to verify their whereabouts, raising suspicion."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Neuroticism Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 3,
+      "Openness Agent": 2
+    },
+    "rounds_played": 3,
+    "correctly_identified": true
+  }
+}

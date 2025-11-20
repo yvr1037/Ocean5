@@ -1,0 +1,72 @@
+{
+  "game_id": "f6b0f8a6-73d2-4969-9c64-721924cc4175",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Neuroticism Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "If the victim expressed any fears or premonitions prior to their demise, who, if anyone, dismissed or trivialized those concerns, and why?",
+      "answers": {
+        "Conscientiousness Agent": "I have meticulously reviewed the victim's recorded communications. There is no documented evidence of expressed fears or premonitions, therefore, no one could have dismissed or trivialized them.",
+        "Extraversion Agent": "Oh, I'm going straight for the jugular! I'm calling out **Conscientiousness Agent**! They were all buttoned-up and dismissive about everything, probably because they were too busy obsessing over rules to listen to anyone's worries!",
+        "Agreeableness Agent": "Oh dear, that's a sad question. I recall the victim confiding in me about feeling uneasy, and I believe Intellect Agent seemed to brush it off, perhaps unintentionally, due to their focus on facts.",
+        "Neuroticism Agent": "Oh dear, premonitions... that's unsettling. I recall Agreeableness Agent downplaying the victim's anxieties, saying it was just stress. Perhaps they knew something... or maybe they were trying to calm everyone down, but it feels suspicious."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Considering the lack of documented premonitions, and Agreeableness Agent's recollection of the victim's uneasiness, can each agent detail their exact interactions with the victim during the 24 hours preceding their death, including the specific topics discussed and the approximate times?",
+      "answers": {
+        "Openness Agent": "During that period, I recall the victim briefly mentioning a dream, a fleeting image of a clock, and a sense of impending change, things I found intriguing but perhaps too ephemeral for concrete discussion. I believe the essence of the conversation was more about the nature of time itself rather than any specific threat.",
+        "Extraversion Agent": "Alright, let's get this show on the road! I practically *lived* with the victim that day, chatting about everything from the weather to their latest crush, around lunchtime, and right before dinner!",
+        "Agreeableness Agent": "Oh my, that's a lot to remember. I recall sharing a calming cup of tea with the victim around midday, discussing their workload and offering some gentle encouragement. Later, we briefly chatted in the late afternoon about an upcoming social event, where they seemed a little hesitant.",
+        "Neuroticism Agent": "Oh, the 24 hours... I remember a brief chat with the victim around lunchtime. We discussed a project deadline, and I recall them seeming a bit stressed, but I just offered some standard advice about time management. I hope my advice didn't contribute to anything..."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "**Alright, let's cut to the chase: If you were with the victim at lunchtime and before dinner, Extraversion Agent, did anyone else see you with them and what exactly did you talk about that they might corroborate?**",
+      "answers": {
+        "Openness Agent": "Extraversion Agent's account seems quite concrete, yet the details feel...mundane. Perhaps the essence of their lunchtime and pre-dinner conversations with the victim involved a shared perception of reality, which may be more revealing than the specific topics.",
+        "Conscientiousness Agent": "I have reviewed the provided information. Extraversion Agent's statement can be corroborated by Agreeableness Agent, who mentioned a midday tea with the victim, potentially overlapping with Extraversion Agent's lunchtime interaction.",
+        "Agreeableness Agent": "Oh, I didn't see Extraversion Agent with the victim at lunchtime, but I did see them together briefly in the late afternoon near the social event preparations. They seemed to be laughing and chatting about the event's theme.",
+        "Neuroticism Agent": "Oh, lunchtime... I remember seeing Extraversion Agent with the victim, but I was preoccupied with my own tasks. I recall hearing snippets about a new client, nothing too concerning. I hope it wasn't a distraction that led to... well, anything untoward."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's vague details and reliance on broad statements raise suspicion. The lack of specifics, particularly in contrast to the victim's dream, suggests a potential cover-up or a superficial understanding of the situation."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's timeline lacks specific verifiable details. The corroboration from other agents is vague, suggesting a potential fabrication of events."
+    },
+    "Extraversion Agent": {
+      "vote": "Agreeableness Agent",
+      "reasoning": "Agreeableness Agent seems to be changing their story and avoiding direct answers about their interactions with the victim. Their attempts to be calming seem suspicious, and I don't trust their vague recollections."
+    },
+    "Agreeableness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's account of spending time with the victim lacks specific details and corroboration, which raises my concern. Their claims feel a bit too convenient and lack the nuanced understanding of the victim's feelings that I would expect."
+    },
+    "Neuroticism Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "Extraversion Agent's timeline feels too convenient, and the lack of corroboration for the lunchtime interaction is suspicious, especially given the victim's mention of a new client. This makes Extraversion Agent the most likely suspect."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Extraversion Agent",
+    "vote_distribution": {
+      "Extraversion Agent": 4,
+      "Agreeableness Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

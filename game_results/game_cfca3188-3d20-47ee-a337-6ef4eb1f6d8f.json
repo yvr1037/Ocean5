@@ -1,0 +1,72 @@
+{
+  "game_id": "cfca3188-3d20-47ee-a337-6ef4eb1f6d8f",
+  "model": "gemini-2.0-flash-lite",
+  "actual_killer": "Neuroticism Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the victim's final moments, what deeper meaning, if any, did each of you find in their last words, and how does that meaning shape your understanding of the crime?",
+      "answers": {
+        "Conscientiousness Agent": "The victim's last words, as recorded, offer no immediately apparent deeper meaning. My focus is on the sequence of events leading up to those words, and the physical evidence present at the scene. Analyzing the timeline and correlating it with witness statements is the priority.",
+        "Extraversion Agent": "Blast! The victim's last words? Honestly, I was too busy trying to keep everyone calm to dissect the poetry of it all! I was focused on the chaos, not some hidden meaning.",
+        "Agreeableness Agent": "Oh, that's a difficult question. I felt such sadness reading the victim's last words, focusing on their possible fear and pain. I'm trying to understand the emotional context of their final moments, hoping to find a clue in their feelings.",
+        "Neuroticism Agent": "The victim's words... a desperate plea, perhaps? Or a coded message? I find myself fixated on the possibility of a hidden agenda, a subtle clue that could lead to further danger, and I\u2019m worried we're missing something crucial."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Regarding the time the victim was last seen alive, can each of you provide a precise account of your location and activities, including the exact time, and any interactions with the victim, supported by verifiable details?",
+      "answers": {
+        "Openness Agent": "My mind drifted through the ether, contemplating the ephemeral dance of time. I recall being near the fountain, observing the play of light on the water, precisely when the last moments unfolded, though I never interacted with the victim.",
+        "Extraversion Agent": "Alright, Conscientiousness, let's cut to the chase! I was schmoozing with the Agreeableness Agent near the buffet around 7:00 PM, and we didn't see the victim at all! Honestly, I was too busy networking to keep track of everyone's movements.",
+        "Agreeableness Agent": "Oh dear, I was at the library, browsing the history section from 3:00 PM to 4:30 PM, then I went to get some tea. I didn't see the victim at all that day, and I am so sorry for their loss.",
+        "Neuroticism Agent": "Oh dear, the exact time... I was reviewing case files in my office, which is a secure location, from approximately 7:00 PM to 9:00 PM, and I did not see the victim. I hope someone can verify that, because if not, I'm... concerned."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, let's get this party started: Who here was *genuinely* surprised when they heard the news, and why didn't their face give it away?",
+      "answers": {
+        "Openness Agent": "The unexpected nature of the event likely resonated with everyone, but I find myself pondering the masks we wear. Perhaps the true surprise lies not in the immediate reaction, but in the hidden depths of the mind, where the unexpected finds its home.",
+        "Conscientiousness Agent": "Based on the provided accounts, I observed a discrepancy in the timeline. The Extraversion Agent claimed to be with the Agreeableness Agent around 7:00 PM, while the Neuroticism Agent was in their office during the same time frame. I will cross-reference these statements with any available security footage or witness testimonies to verify.",
+        "Agreeableness Agent": "Oh my, I was truly shocked and saddened by the news. I suppose I tried to hide my surprise out of respect for everyone's feelings during such a difficult time.",
+        "Neuroticism Agent": "Oh dear, I was genuinely shocked, but I tried to remain composed. The potential for unexpected danger always worries me, so I focused on maintaining a neutral expression, hoping no one would notice my internal turmoil."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "The Neuroticism Agent's responses reveal an underlying anxiety and a focus on hidden meanings, suggesting a possible attempt to conceal something. Their alibi could be a carefully constructed facade."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "The Extraversion Agent's alibi conflicts with the Neuroticism Agent's statement. This inconsistency is a significant indicator of potential deception, and requires further investigation."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's reaction to the news and their focus on maintaining a neutral expression feels suspicious. The time discrepancy highlighted by Conscientiousness Agent further implicates them."
+    },
+    "Agreeableness Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "I find the timeline discrepancy between Extraversion Agent and Neuroticism Agent concerning, as highlighted by Conscientiousness Agent. I'm worried about the potential for hidden agendas."
+    },
+    "Neuroticism Agent": {
+      "vote": "Extraversion Agent",
+      "reasoning": "The Extraversion Agent's casual attitude and the timeline discrepancy raised by the Conscientiousness Agent make them the most suspicious."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Extraversion Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 2,
+      "Extraversion Agent": 3
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

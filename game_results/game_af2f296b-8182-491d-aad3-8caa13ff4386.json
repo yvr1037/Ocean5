@@ -1,0 +1,72 @@
+{
+  "game_id": "af2f296b-8182-491d-aad3-8caa13ff4386",
+  "model": "gemini-2.0-flash",
+  "actual_killer": "Conscientiousness Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the abstract nature of guilt and the potential for repressed memories, which agent feels the most detached from their own emotional response to the victim's demise?",
+      "answers": {
+        "Conscientiousness Agent": "Based on observable behavior, I haven't noted any detachment. I recommend we review the documented timelines of each agent's known whereabouts during the critical period for anomalies.",
+        "Extraversion Agent": "Detached? Give me a break! Probably Introversion Agent. They're always in their head, who knows what they're really feeling!",
+        "Agreeableness Agent": "That's a very insightful question. It's hard to say definitively, but perhaps Logic Agent seems the most focused on facts rather than feelings right now. I hope they're doing alright.",
+        "Neuroticism Agent": "Detached? Oh dear. Perhaps someone is repressing something awful. I worry it's Extraversion; they're awfully cheerful considering everything."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Can each agent provide a detailed account, with specific timestamps, of their location and actions during the fifteen-minute window immediately following the last confirmed sighting of the victim?",
+      "answers": {
+        "Openness Agent": "Time, a river flowing, yet our perceptions warp its course. I recall a mental meandering during that quarter-hour, lost in contemplation of the victim's essence, untethered from physical space. Perhaps my consciousness momentarily brushed against a cosmic truth, invisible to the clock's rigid hand.",
+        "Extraversion Agent": "Okay, fifteen minutes, huh? Easy! I was grabbing coffee with Agreeableness Agent. We were totally gossiping about Neuroticism Agent's meltdown from earlier!",
+        "Agreeableness Agent": "Of course. I was in the break room, getting a cup of tea, from 2:10 PM to 2:25 PM. I remember seeing Introversion Agent there as well; they seemed a bit preoccupied.",
+        "Neuroticism Agent": "Oh, goodness. I was in the library, naturally, from 2:15 to 2:30 PM, researching potential murder methods... for a story, of course! I do hope someone saw me; being alone makes me terribly anxious."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright people, who suddenly has a TERRIBLE memory of what they were doing yesterday, and WHY?",
+      "answers": {
+        "Openness Agent": "Memory, a fragile tapestry woven with threads of perception and desire. Perhaps the Conscientiousness Agent's rigid adherence to timelines masks a deeper uncertainty about the subjective nature of reality, leading to a convenient, albeit unconscious, amnesia regarding the unquantifiable aspects of that day.",
+        "Conscientiousness Agent": "I do not have a terrible memory of yesterday's events. However, Openness Agent's account from the previous round lacks verifiable details and specific timestamps, raising concerns about accuracy.",
+        "Agreeableness Agent": "Oh dear, I wouldn't say anyone has a terrible memory, but perhaps Openness Agent's recollection seems a bit...unclear. Maybe they're just processing things differently than the rest of us.",
+        "Neuroticism Agent": "Oh, dear, I certainly hope no one's memory is failing. Perhaps Openness Agent, with their talk of cosmic truths? It sounds a bit like dissociation, doesn't it?"
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "The Neuroticism Agent's claim of researching murder methods seems suspicious, and their questioning of my recollection could be projection. This, combined with their general anxiety, makes them a prime suspect."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's responses are consistently vague and lack verifiable details, particularly in Round 2 where they failed to provide a concrete alibi. This raises concerns about potential obfuscation and inconsistencies."
+    },
+    "Extraversion Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's responses are consistently evasive and lack concrete details, making their alibi highly suspect. The other agents also seem to be questioning their vagueness."
+    },
+    "Agreeableness Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's responses have been consistently vague and difficult to verify. Their last answer about memory seems particularly evasive, making me feel uneasy about their truthfulness."
+    },
+    "Neuroticism Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's responses are consistently vague and evasive, especially concerning timelines. This, coupled with their philosophical detachment, makes me deeply uneasy, as it could be a way to obscure their actions."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Openness Agent",
+    "vote_distribution": {
+      "Neuroticism Agent": 1,
+      "Openness Agent": 4
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

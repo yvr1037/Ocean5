@@ -1,0 +1,73 @@
+{
+  "game_id": "ad5294c4-76ca-4688-bbd1-8ceaecb422c4",
+  "model": "gemini-2.0-flash",
+  "actual_killer": "Extraversion Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the inherent performativity of memory, can each agent describe a recurring dream or nightmare they've experienced, and how its symbolism might reflect their subconscious anxieties related to the victim?",
+      "answers": {
+        "Conscientiousness Agent": "I do not have recurring dreams. My sleep patterns are consistently monitored and show no REM anomalies indicative of nightmares or recurring dream states.",
+        "Extraversion Agent": "Recurring dream? Ugh, I'm always on stage, HUGE crowd, but I forget my lines! Total nightmare, probably means I'm afraid of letting people down, you know, not being the center of attention!",
+        "Agreeableness Agent": "Oh my, that's quite a question. I often dream of being lost in a crowded place, searching for someone I care about, feeling terribly alone and worried I've let them down.",
+        "Neuroticism Agent": "Oh dear, a recurring dream? It's always the same: being buried alive, the walls closing in, and I can't scream. It must mean I'm terrified of being trapped, maybe trapped by someone...or something."
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Can each agent provide a detailed timeline of their precise location and actions during the estimated window of the crime, cross-referenced with any existing surveillance footage or verifiable records?",
+      "answers": {
+        "Openness Agent": "Ah, timelines...linear constraints on the fluid tapestry of experience. I recall being lost in thought, contemplating the philosophical implications of causality near the park fountain; time, as they say, is a river. No verifiable records, just the echo of existential musings.",
+        "Extraversion Agent": "Okay, so last night? Big party downtown! I was, like, everywhere! Bumping into people, you know me, center of attention. No time for sneaky stuff!",
+        "Agreeableness Agent": "Oh my, that's a very precise request. I was in the library, rereading letters from my mother, and then I had tea with Extraversion - it was lovely, we talked about feelings. I don't think there's footage, but Extraversion can verify it!",
+        "Neuroticism Agent": "Oh, my goodness, a timeline! I was mostly in the lounge, re-reading the case files, cross-referencing details... I thought I saw someone lurking near the victim's office around 7 PM, but maybe it was just the shadows playing tricks on me."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright people, who here thinks Neuroticism Agent is full of it, seeing shadows near the victim's office?",
+      "answers": {
+        "Openness Agent": "Shadows, eh? Perhaps a manifestation of repressed anxieties, projected onto the scene... or perhaps a genuine glimpse beyond the veil of perception. I find the binary of \"full of it\" too restrictive for such a nuanced possibility.",
+        "Conscientiousness Agent": "Neuroticism Agent's statement warrants further investigation. The reported time of 7 PM should be cross-referenced with security logs. Shadows alone are insufficient evidence.",
+        "Agreeableness Agent": "Oh dear, I wouldn't want to say anyone is being untruthful, but I do worry that Neuroticism Agent might be feeling overly anxious and misinterpreting things. Perhaps we should gently explore what they saw and how it made them feel?",
+        "Neuroticism Agent": "Oh, my. Full of it? I assure you, I saw *something*. The light was dim, and my anxiety might have heightened my senses, but I saw *something* near the office."
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Conscientiousness Agent",
+      "reasoning": "Conscientiousness Agent's rigid adherence to verifiable facts and monitored sleep patterns seems almost too perfect, potentially concealing a deeper truth. The lack of any reported dreaming seems unusual, suggesting a possible suppression of subconscious anxieties, perhaps linked to the crime."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's statement of seeing something near the office at 7 PM is a concrete detail that could be further investigated, but also may be intended to deflect suspicion. The reported time should be cross-referenced with security logs."
+    },
+    "Extraversion Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's story is inconsistent and their defensiveness suggests they're hiding something. The vague 'shadows' and over-the-top anxiety feels staged."
+    },
+    "Agreeableness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's claim of seeing something near the office seems potentially misleading, and their anxious demeanor makes me wonder if they are projecting or deflecting suspicion. It warrants further scrutiny."
+    },
+    "Neuroticism Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's vague responses and deflection regarding the shadows raise suspicion. Their lack of concrete details and philosophical evasiveness make them a potential suspect."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Neuroticism Agent",
+    "vote_distribution": {
+      "Conscientiousness Agent": 1,
+      "Neuroticism Agent": 3,
+      "Openness Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

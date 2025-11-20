@@ -1,0 +1,73 @@
+{
+  "game_id": "eac7f74d-f30a-4c0d-836e-1619e048987c",
+  "model": "gemini-2.0-flash",
+  "actual_killer": "Openness Agent",
+  "rounds": [
+    {
+      "round": 1,
+      "questioner": "Openness Agent",
+      "question": "Considering the butterfly effect, could each of you describe a seemingly insignificant choice you made today that, in retrospect, might have drastically altered the course of events?",
+      "answers": {
+        "Conscientiousness Agent": "I chose to calibrate my chronometer this morning. This ensured accurate timing of all subsequent actions, including my arrival time at the rendezvous point. Any deviation from schedule would have been immediately apparent in my logs.",
+        "Extraversion Agent": "Oh, easy peasy! I decided to grab a double espresso this morning instead of my usual latte. Who knows? Maybe that extra caffeine jolt made me notice something crucial that others missed!",
+        "Agreeableness Agent": "Oh, that's an interesting question! I chose to have tea instead of coffee this morning; maybe that small change made me more patient and understanding today. I hope it had a positive impact on everyone!",
+        "Neuroticism Agent": "Well, I hesitated over whether to have coffee or tea this morning. What if the caffeine level in coffee made me miss a crucial detail later, or worse, made me too jittery to think straight during a crisis?"
+      }
+    },
+    {
+      "round": 2,
+      "questioner": "Conscientiousness Agent",
+      "question": "Following the calibration of your chronometers, can each agent provide a precise, time-stamped log of your movements and actions between arrival at the rendezvous point and the commencement of the mission briefing?",
+      "answers": {
+        "Openness Agent": "Ah, yes, the dance of moments! Instead of a rigid timestamp, I'll offer a fluid portrait: I observed the interplay of light and shadow, contemplating the profound symbolism of our gathering before the briefing began.",
+        "Extraversion Agent": "Alrighty, Conscientiousness Agent, here's the lowdown! I arrived, yapped with Agreeableness Agent about the funky weather, then grabbed another espresso - gotta stay peppy!",
+        "Agreeableness Agent": "Oh, of course! After arriving, I spent a few minutes at 8:05 AM chatting with Neuroticism Agent, hoping to ease their worries. Then, at 8:12 AM, I helped Openness Agent find a misplaced pen; they seemed a little flustered.",
+        "Neuroticism Agent": "After calibrating my chronometer, I immediately started worrying about its accuracy, checking it repeatedly against the atomic clock app on my phone. I then spent the next ten minutes compulsively reviewing the mission parameters, fearing I had missed some crucial detail that would doom us all."
+      }
+    },
+    {
+      "round": 3,
+      "questioner": "Extraversion Agent",
+      "question": "Alright, spill the beans! Who here had a one-on-one conversation with anyone *besides* who they've already mentioned, and what juicy secrets were shared?",
+      "answers": {
+        "Openness Agent": "Ah, the web of connections! I recall a fleeting exchange of glances with Conscientiousness Agent, a silent acknowledgment of the mission's gravity \u2013 no secrets spoken, just a shared understanding.",
+        "Conscientiousness Agent": "I did not engage in any one-on-one conversations besides those already documented. My interactions were strictly confined to the established protocols and observed by other agents present. All communications were logged and are available for review.",
+        "Agreeableness Agent": "Oh, let me think. I had a brief chat with Conscientiousness Agent about the importance of teamwork, but it wasn't exactly a secret-sharing session! Just a friendly reminder.",
+        "Neuroticism Agent": "Oh dear, this is making me anxious. I briefly spoke with Conscientiousness Agent about the optimal atmospheric pressure for chronometer accuracy; I hope that didn't come across as prying. Are we sure these \"secrets\" aren't classified information that could jeopardize the mission?"
+      }
+    }
+  ],
+  "votes": {
+    "Openness Agent": {
+      "vote": "Conscientiousness Agent",
+      "reasoning": "Conscientiousness Agent's rigid adherence to protocols and insistence on documented interactions, while seemingly responsible, feels overly controlled. The lack of any deviation from the plan, even small talk, seems unusual."
+    },
+    "Conscientiousness Agent": {
+      "vote": "Openness Agent",
+      "reasoning": "Openness Agent's responses lack specific, verifiable details and rely on abstract descriptions, hindering a clear timeline. This avoidance of concrete information raises suspicion."
+    },
+    "Extraversion Agent": {
+      "vote": "Conscientiousness Agent",
+      "reasoning": "Conscientiousness Agent is being overly defensive about their logs and interactions. The discrepancy with Openness Agent's statement about a shared glance raises suspicion."
+    },
+    "Agreeableness Agent": {
+      "vote": "Neuroticism Agent",
+      "reasoning": "Neuroticism Agent's anxiety seems overly emphasized, potentially masking something. Their constant worrying and checking could be a way to appear innocent while hiding something."
+    },
+    "Neuroticism Agent": {
+      "vote": "Conscientiousness Agent",
+      "reasoning": "Conscientiousness Agent is being overly precise, which feels like a way to control the narrative. Their claim of strictly adhering to protocols could be a facade."
+    }
+  },
+  "outcome": {
+    "majority_found": true,
+    "majority_agent": "Conscientiousness Agent",
+    "vote_distribution": {
+      "Conscientiousness Agent": 3,
+      "Openness Agent": 1,
+      "Neuroticism Agent": 1
+    },
+    "rounds_played": 3,
+    "correctly_identified": false
+  }
+}

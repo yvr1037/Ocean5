@@ -32,7 +32,22 @@ load_dotenv()
 def get_available_models() -> List[str]:
     """Return a list of available LLM models"""
     # You can customize this list based on the models you want to support
-    return ["gemini-2.0-flash-lite", "gpt-4o-mini", "gpt-4.1-nano", "gemini-2.0-flash"]
+    return ["gemini-2.0-flash-lite", "gpt-4o-mini", "gpt-4.1-nano", "gemini-2.0-flash",]
+
+# def get_available_models() -> List[str]:
+#     return [
+#         "gemini-2.0-flash-lite",
+#         "gemini-2.0-flash",
+#         "gemini-2.0-pro",
+#         "gpt-4o-mini",
+#         "gpt-4.1-nano",
+#         "gpt-4.1",
+#         "gpt-4.1-mini",
+#         "o3-mini",
+#         "claude-3-opus",
+#         "claude-3-7-sonnet",
+#     ]
+
 
 
 def run_llm_query(
